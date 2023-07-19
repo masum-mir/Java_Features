@@ -54,7 +54,6 @@ Optionals got the sorely missed ifPresentOrElse method.
 Interfaces got private methods:
 
 > public interface MyInterface {
-
     private static void myPrivateMethod(){
         System.out.println("Yay, I am private!");
     }
