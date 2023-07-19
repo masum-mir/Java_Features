@@ -322,7 +322,19 @@ package Java17Concepts;
 
 
 ## String method 8 - 17:
-- join() :  This method is used to join the string elements separated by a delimiter
+- join() :  This method is used to join the string elements separated by a delimiter.
+- chars() and codePoints() : are the two new methods introduced in Java 9. Both return an IntStream.
+- isBlank() : You can use this method to check whether given string is blank or not. A string is said to be blank if it is empty or contains only white spaces.
+- lines() : This method returns a stream of lines extracted from the given string. A line can be defined as a sequence of zero or more characters followed by a line terminator.
+- repeat() : This method returns the calling string repeated n times.
+- strip() : You can use this method to remove all leading and trailing white spaces of the given string.
+- stripLeading() : This method removes only leading white spaces of a string.
+- stripTrailing() : This method removes only trailing white spaces of a string.
+- indent() : This method applies indentation for each line of the given string according to supplied value.
+- formatted() : This method formats the given string with the supplied arguments. This method is similar to String.format(this, args).
+- stripIndent() : This method removes indentation of the given string at the beginning and at the end of every line.
+- translateEscapes() : This method returns a string with escape sequences translated as if in a string literal
+
 ![JavaNewStringMethods](https://github.com/masum-mir/Java_Features/assets/97207983/c4063440-9317-4f78-bb54-adc2df508da0)
 
 
