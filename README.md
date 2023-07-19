@@ -322,10 +322,10 @@ package Java17Concepts;
 
 
 ## String method 8 - 17:
-
+- join() :  This method is used to join the string elements separated by a delimiter
 ![JavaNewStringMethods](https://github.com/masum-mir/Java_Features/assets/97207983/c4063440-9317-4f78-bb54-adc2df508da0)
 
-- join() :  This method is used to join the string elements separated by a delimiter
+
 
 
 
