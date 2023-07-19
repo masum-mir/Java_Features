@@ -14,17 +14,17 @@
      
 With lambdas, the same code looks like this:
 
-Runnable runnable = () -> System.out.println("Hello world two!");
+> Runnable runnable = () -> System.out.println("Hello world two!");
 
 You also got method references, repeating annotations, default methods for interfaces and a few other language features.
 
 ### Collections & Streams:
 
-List<String> list = Arrays.asList("franz", "ferdinand", "fiel", "vom", "pferd");
+> List<String> list = Arrays.asList("franz", "ferdinand", "fiel", "vom", "pferd");
 
 With the Streams API, you can do the following:
 
-list.stream()
+> list.stream()
     .filter(name -> name.startsWith("f"))
     .map(String::toUpperCase)
     .sorted()
