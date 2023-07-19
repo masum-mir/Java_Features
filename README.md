@@ -284,33 +284,34 @@ package Java17Concepts;
 
 10) A sealed super class can be abstract, and permitted sub classes can also be abstract provided they can be either sealed or non-sealed but not final.
 
-> package Java17Concepts;
+```
+ package Java17Concepts;
  
-> abstract sealed class SuperClass permits SubClassOne, SubClassTwo, SubClassThree
+ abstract sealed class SuperClass permits SubClassOne, SubClassTwo, SubClassThree
 {
     //Super class can be abstract and Sealed
 }
  
-> abstract final class SubClassOne extends SuperClass
+ abstract final class SubClassOne extends SuperClass
 {
     //Compile Time Error : Sub class can't be final and abstract
 }
  
-> abstract non-sealed class SubClassTwo extends SuperClass
+ abstract non-sealed class SubClassTwo extends SuperClass
 {
     //Sub class can be abstract and Non-sealed
 }
  
-> abstract sealed class SubClassThree extends SuperClass permits AnotherSubClass
+ abstract sealed class SubClassThree extends SuperClass permits AnotherSubClass
 {
     //Sub class can be abstract and Sealed
 }
  
-> final class AnotherSubClass extends SubClassThree
+ final class AnotherSubClass extends SubClassThree
 {
     //Final sub class of SubClassThree
 }
-
+```
 11) While declaring sealed classes and sealed interfaces, permits clause must be used after extends and implements clause.
 
 12) With the introduction of sealed classes, two more methods are added to java.lang.Class (Reflection API). They are getPermittedSubclasses() and isSealed().
