@@ -318,4 +318,13 @@ package Java17Concepts;
 ```
 11) While declaring sealed classes and sealed interfaces, permits clause must be used after extends and implements clause.
 
-12) With the introduction of sealed classes, two more methods are added to java.lang.Class (Reflection API). They are getPermittedSubclasses() and isSealed().
+12) With the introduction of sealed classes, two more methods are added to java.lang.Class (Reflection API). They are getPermittedSubclasses() and isSealed().y
+
+
+## String method 8 - 17:
+
+![JavaNewStringMethods](https://github.com/masum-mir/Java_Features/assets/97207983/c4063440-9317-4f78-bb54-adc2df508da0)
+
+
+
+
